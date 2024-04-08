@@ -1,0 +1,38 @@
+#
+# Demo
+#
+
+dataseg 0x2000000
+heap implicit
+
+mode correctness
+
+log ds 1
+log mm 1
+
+start
+m 1 16
+m 2 50
+m 3 47
+m 4 48
+m 5 32
+m 6 1000
+m 7 10000
+v
+f 2
+f 5
+v
+m 5 40
+v
+m 2 40
+v
+f 6
+f 1
+f 2
+f 3
+f 5
+f 7
+v
+stop
+stat
+
