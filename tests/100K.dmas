@@ -2,7 +2,7 @@
 # 100,000 allocations
 #
 
-dataseg 0x4000000
+dataseg 0x80000000
 heap
 
 mode performance
