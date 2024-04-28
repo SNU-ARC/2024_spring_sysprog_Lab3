@@ -43,8 +43,8 @@ You should upload your archive file(.tar) containing code (memmgr.c) and report 
 ```
 $ ls
 2024-12345.pdf  doc  Makefile  README.md  driver  src  tests
-$ tar -cvf 2024-12345.tar src/memmrg.c 2024-12345.pdf
-src/memmrg.c
+$ tar -cvf 2024-12345.tar src/memmgr.c 2024-12345.pdf
+src/memmgr.c
 2024-12345.pdf
 $ file 2024-12345.tar
 2024-12345.tar: POSIX tar archive (GNU)
